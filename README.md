@@ -1,0 +1,2 @@
+# Python
+naloge v Pythonu
