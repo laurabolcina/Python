@@ -1,5 +1,5 @@
-# Laura Bolčina
 # coding=utf-8
+__author__ = "Laura Bolčina"
 
 stevilo = 23
 ugibaj = True
