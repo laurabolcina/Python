@@ -1,8 +1,8 @@
 # coding=utf-8
 __author__ = "Laura Bolčina"
 
-file = raw_input("Submit the name of the file with DNA data for analysis: ")
-dna = open(file, "r").read()
+dna_data = raw_input("Submit the name of the file with DNA data for analysis: ")
+dna = open(dna_data, "r").read()
 print "DNA of the criminal: ", dna
 
 # suspects database
