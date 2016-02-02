@@ -1,3 +1,6 @@
+# coding=utf-8
+__author__ = "Laura Bolčina"
+
 def percent_share(total, youth):
     result = youth / total * 100
     return result
