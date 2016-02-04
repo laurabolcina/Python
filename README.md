@@ -6,3 +6,7 @@ Python exercises
 04 ... fizzbuzz  - app that recognizes numbers dividable by 3 and/or 5
 05 ... shopping list
 06 ... capital city quiz
+07 ... percent share calculator
+08 ... cash register
+09 ... contacts
+10 ... car brand quiz
