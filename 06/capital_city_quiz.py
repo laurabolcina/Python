@@ -55,10 +55,20 @@ print "Welcome to the capital city quiz!"
 guess = True
 
 while guess:
-    for state in capital_cities:
-        city = raw_input("What is the capital city of %s? "  % (state))
+    for country in capital_cities:
+        city = raw_input("What is the capital city of %s? "  % (country))
         city = city.lower()
-        if city == capital_cities[state].lower():
+        if city == capital_cities[country].lower():
             print "Your answer is correct!"
         else:
-            print "No, it\'s %s." % (capital_cities[state])
+            print "No, it\'s %s." % (capital_cities[country])
+
+# functions
+
+def capital_city(country):
+    city = capital_cities[country]
+    return city
+
+def check_capital_city(city, country):
+    assert capital_city(country) == city
+    return "check_capital_city() passed successfully"
